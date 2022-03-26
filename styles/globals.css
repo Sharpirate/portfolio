@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@layer components {
+  .display {
+    @apply font-base font-black text-40 tracking-4;
+  }
+
+  .heading {
+    @apply font-base font-black text-24 tracking-4;
+  }
+
+  .body {
+    @apply font-base font-med text-16 tracking-2;
+  }
+
+  .small {
+    @apply font-base font-med text-13 tracking-2;
+  }
+}
+
+@layer utilities {
+  .bg-landing {
+    background: url('/img/bg-landing.svg') top center/cover no-repeat fixed;
+  }
+}
