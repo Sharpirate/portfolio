@@ -9,20 +9,20 @@ const cards = [
     videoUrl: "https://www.youtube.com/watch?v=ad9S5j1wuHs"
   },
   {
-    name: "NoTime",
-    imageSrc: "/img/notime.jpg",
-    description: "Test your reactions with this fun Android game",
-    tags: ["Java", "libGDX", "Inkscape", "Google Play Services"],
-    codeUrl: "https://github.com/Sharpirate/NoTime",
-    liveUrl: "https://play.google.com/store/apps/details?id=com.sharpirate.notime",
-  },
-  {
     name: "Harmonify",
     imageSrc: "/img/harmonify.png",
     description: "Discover similar music artists and their top songs",
     tags: ["ReactJS", "ReduxJS", "NodeJS", "ExpressJS", "Spotify API"],
     codeUrl: "https://github.com/Sharpirate/harmonify",
     liveUrl: "http://www.harmonify.site/",
+  },
+  {
+    name: "NoTime",
+    imageSrc: "/img/notime.jpg",
+    description: "Test your reactions with this fun Android game",
+    tags: ["Java", "libGDX", "Inkscape", "Google Play Services"],
+    codeUrl: "https://github.com/Sharpirate/NoTime",
+    liveUrl: "https://play.google.com/store/apps/details?id=com.sharpirate.notime",
   }
 ];
 
