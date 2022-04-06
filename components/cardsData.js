@@ -6,7 +6,7 @@ const cards = [
     tags: ["ReactJS", "NextJS", "Tailwind", "Firebase", "Framer Motion"],
     codeUrl: "https://github.com/Sharpirate/need-to-break",
     liveUrl: "https://www.needtobreak.com/",
-    videoUrl: ""
+    videoUrl: "https://www.youtube.com/watch?v=ad9S5j1wuHs"
   },
   {
     name: "NoTime",
@@ -15,7 +15,6 @@ const cards = [
     tags: ["Java", "libGDX", "Inkscape", "Google Play Services"],
     codeUrl: "https://github.com/Sharpirate/NoTime",
     liveUrl: "https://play.google.com/store/apps/details?id=com.sharpirate.notime",
-    videoUrl: ""
   },
   {
     name: "Harmonify",
@@ -24,7 +23,6 @@ const cards = [
     tags: ["ReactJS", "ReduxJS", "ExpressJS", "Spotify API"],
     codeUrl: "https://github.com/Sharpirate/harmonify",
     liveUrl: "http://www.harmonify.site/",
-    videoUrl: ""
   }
 ];
 

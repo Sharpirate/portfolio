@@ -7,7 +7,7 @@ function Card({ name, description, tags, imageSrc, codeUrl, liveUrl, videoUrl })
     <div className="bg-white/40 flex flex-col rounded-8 1124:max-w-[360px]">
       {/* Image */}
       <div className="w-full h-full 540:p-24">
-        <img className="w-full h-auto rounded-t-8" src={imageSrc} alt="Harmonify" />
+        <img className="w-full h-auto rounded-t-8 540:rounded-b-8" src={imageSrc} alt="Harmonify" />
       </div>
 
       {/* Body */}
@@ -21,7 +21,9 @@ function Card({ name, description, tags, imageSrc, codeUrl, liveUrl, videoUrl })
 
         <div className="inline-flex flex-col 380:flex-row mt-24 gap-24">
           <Button type={buttonTypes.primary} href={liveUrl}>Try It Now</Button>
-          <Button type={buttonTypes.secondary} href={videoUrl}>See Video</Button>
+          {videoUrl && (
+            <Button type={buttonTypes.secondary} href={videoUrl}>See Video</Button>
+          )}
         </div>
       </div>
 
