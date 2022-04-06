@@ -20,7 +20,7 @@ const cards = [
     name: "Harmonify",
     imageSrc: "/img/harmonify.png",
     description: "Discover similar music artists and their top songs",
-    tags: ["ReactJS", "ReduxJS", "ExpressJS", "Spotify API"],
+    tags: ["ReactJS", "ReduxJS", "NodeJS", "ExpressJS", "Spotify API"],
     codeUrl: "https://github.com/Sharpirate/harmonify",
     liveUrl: "http://www.harmonify.site/",
   }
