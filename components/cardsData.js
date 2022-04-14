@@ -6,7 +6,6 @@ const cards = [
     tags: ["ReactJS", "NextJS", "Tailwind", "Firebase", "Framer Motion"],
     codeUrl: "https://github.com/Sharpirate/need-to-break",
     liveUrl: "https://www.needtobreak.com/",
-    videoUrl: "https://youtu.be/5F6BkN-NYic"
   },
   {
     name: "Harmonify",
